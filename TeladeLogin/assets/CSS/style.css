@@ -1,0 +1,112 @@
+/* utiliza pra deixar no tamanHo do max width, no caso do * universal em todos elementos. */
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+} 
+
+body {
+    background-color: rgb(218, 213, 213);
+} 
+
+/*centro do conteudo,centraliza na pagina */
+.content-center {
+    width: 100%;
+    max-width: 300px ;/* define um tamanho maxim e pare */
+    margin: auto;/* margens do element, auto calcula automatico*/
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 15px;/* radius borda arredondada. */
+}
+
+/* largura dentro das margem*/
+.content-center img {
+    width: 100%
+}
+
+.content-center .text-center {
+
+    text-align: center;
+}
+
+.content-center form {
+    margin: 20px;
+} 
+
+.content-center input,
+.content-center button {
+    width: 220px;
+    padding: 10px 5px;/* top,rigth, bottom,left */
+    border: none; /* retirar borda */
+    outline: none;
+}
+
+.content-center input {
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+    border-width: 2px;
+    margin-bottom: 5px;
+    
+
+}
+/*  esse quando foco, quando solto o click */
+.content-center input:focus {
+    border-bottom-color:  #dd2e2e ;
+}
+
+.content-center button {
+    background-color: #dd2e2e;
+}
+
+
+/* eu coloco o que quero que mude quando acontece o hover */
+.content-center button:hover {
+    background-color: #bb1616;
+    color: #FFF;
+    cursor: pointer;/* coloca uma maozinha como cursor */
+
+}
+/* quando voce clica e mantem  */
+.content-center button:active {
+    background-color: #c50c0c;
+    }
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none ;
+}
+
+header a:visited {
+    color: #000000;
+    text-decoration: none ;
+}
+
+header a:hover {
+    text-decoration: underline;
+  
+}
+
+header a:focus{
+   color: #bb1616;
+    
+}
+
+header a:active{
+    color: #c50c0c;
+     
+ }
+
+ header h1 {
+    font: size 2.5em;
+    text-align: center;
+    margin: 50px auto;
+    
+ }
+
+ footer p {
+    font-size: 0.8em;
+    margin: 20px auto;
+    text-align: center;
+ }
+
+
+
